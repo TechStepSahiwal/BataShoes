@@ -19,7 +19,24 @@ namespace Bata
 
         private void Login_Load(object sender, EventArgs e)
         {
+           
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "admin" && textBox2.Text == "123")
+            {
+                AdminHome h = new AdminHome();
+                h.Show();
+                this.Hide();
+            }
+            if (textBox1.Text == "employee" && textBox2.Text == "123")
+            {
+                EmployeeHome o = new EmployeeHome();
+                o.Show();
+                this.Hide();
+               
+            }
         }
     }
 }

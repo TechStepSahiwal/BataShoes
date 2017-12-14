@@ -16,5 +16,17 @@ namespace Bata
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            AdminHome h = new AdminHome();
+            h.Show();
+            EmployeeHome o = new EmployeeHome();
+            o.Show();
+            l.Show();
+            this.Hide();
+            
+        }
     }
 }

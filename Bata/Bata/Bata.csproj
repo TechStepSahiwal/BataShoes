@@ -45,11 +45,209 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AddArtical.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AddArtical.Designer.cs">
+      <DependentUpon>AddArtical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBranch.Designer.cs">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSize.Designer.cs">
+      <DependentUpon>AddSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddVendor.Designer.cs">
+      <DependentUpon>AddVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome.Designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artical.Designer.cs">
+      <DependentUpon>Artical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Branch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Branch.Designer.cs">
+      <DependentUpon>Branch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyShopMirror.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyShopMirror.Designer.cs">
+      <DependentUpon>DailyShopMirror.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteBranch.Designer.cs">
+      <DependentUpon>DeleteBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteEmployee.Designer.cs">
+      <DependentUpon>DeleteEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletePurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletePurchase.Designer.cs">
+      <DependentUpon>DeletePurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteSize.Designer.cs">
+      <DependentUpon>DeleteSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteVendor.Designer.cs">
+      <DependentUpon>DeleteVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPurchase.Designer.cs">
+      <DependentUpon>NewPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase.Designer.cs">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnDetails.Designer.cs">
+      <DependentUpon>ReturnDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Size.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Size.Designer.cs">
+      <DependentUpon>Size.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockDispatchInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockDispatchInvoice.Designer.cs">
+      <DependentUpon>StockDispatchInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockRecieveInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockRecieveInvoice.Designer.cs">
+      <DependentUpon>StockRecieveInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateArtical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateArtical.Designer.cs">
+      <DependentUpon>UpdateArtical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateBranch.Designer.cs">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateEmployee.Designer.cs">
+      <DependentUpon>UpdateEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatePurchase.Designer.cs">
+      <DependentUpon>UpdatePurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSize.Designer.cs">
+      <DependentUpon>UpdateSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateVendor.Designer.cs">
+      <DependentUpon>UpdateVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendors.Designer.cs">
+      <DependentUpon>Vendors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Branch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Branch.Designer.cs">
+      <DependentUpon>View Branch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewArtical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewArtical.Designer.cs">
+      <DependentUpon>ViewArtical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteArtical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteArtical.Designer.cs">
+      <DependentUpon>DeleteArtical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeHome.Designer.cs">
+      <DependentUpon>EmployeeHome.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -59,6 +257,156 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return.Designer.cs">
+      <DependentUpon>Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sale.Designer.cs">
+      <DependentUpon>Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewEmployee.Designer.cs">
+      <DependentUpon>ViewEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPurchase.Designer.cs">
+      <DependentUpon>ViewPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSize.Designer.cs">
+      <DependentUpon>ViewSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewVendor.Designer.cs">
+      <DependentUpon>ViewVendor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddArtical.resx">
+      <DependentUpon>AddArtical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBranch.resx">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSize.resx">
+      <DependentUpon>AddSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddVendor.resx">
+      <DependentUpon>AddVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artical.resx">
+      <DependentUpon>Artical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Branch.resx">
+      <DependentUpon>Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyShopMirror.resx">
+      <DependentUpon>DailyShopMirror.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteBranch.resx">
+      <DependentUpon>DeleteBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteEmployee.resx">
+      <DependentUpon>DeleteEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletePurchase.resx">
+      <DependentUpon>DeletePurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteSize.resx">
+      <DependentUpon>DeleteSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteVendor.resx">
+      <DependentUpon>DeleteVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPurchase.resx">
+      <DependentUpon>NewPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnDetails.resx">
+      <DependentUpon>ReturnDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Size.resx">
+      <DependentUpon>Size.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockDispatchInvoice.resx">
+      <DependentUpon>StockDispatchInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockRecieveInvoice.resx">
+      <DependentUpon>StockRecieveInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateArtical.resx">
+      <DependentUpon>UpdateArtical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBranch.resx">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateEmployee.resx">
+      <DependentUpon>UpdateEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePurchase.resx">
+      <DependentUpon>UpdatePurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSize.resx">
+      <DependentUpon>UpdateSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateVendor.resx">
+      <DependentUpon>UpdateVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendors.resx">
+      <DependentUpon>Vendors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Branch.resx">
+      <DependentUpon>View Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewArtical.resx">
+      <DependentUpon>ViewArtical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteArtical.resx">
+      <DependentUpon>DeleteArtical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeHome.resx">
+      <DependentUpon>EmployeeHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -71,6 +419,30 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Return.resx">
+      <DependentUpon>Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale.resx">
+      <DependentUpon>Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewEmployee.resx">
+      <DependentUpon>ViewEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPurchase.resx">
+      <DependentUpon>ViewPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSize.resx">
+      <DependentUpon>ViewSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewVendor.resx">
+      <DependentUpon>ViewVendor.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -82,7 +454,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
